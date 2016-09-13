@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Try the text catifier!</h1>
+  <form action="/predict" method="post" name ='submission'>
+    <input type = 'text' name = 'input_text'>
+    <input type ='submit' value = 'Submit!'>
+
+  </form>
+{% endblock %}
